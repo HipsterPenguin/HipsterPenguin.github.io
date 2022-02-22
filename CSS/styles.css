@@ -1,0 +1,43 @@
+#MainHeader{
+    font-family: 'Orator', monospace;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+nav{
+    background-color: black;
+    height: 15%;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+}
+
+nav a{
+    font-family: kirsty;
+    color: silver;
+    margin: 5px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@font-face {
+    font-family: axaxax;
+    font-weight: bold;
+    src: url(../Assets/Fonts/axaxax\ bd.otf);
+}
+
+@font-face {
+    font-family: kirsty;
+    src: url(../Assets/Fonts/kirsty\ rg.otf);
+}
+
+@font-face {
+    font-family: kirsty;
+    font-weight: bold;
+    src: url(../Assets/Fonts/kirsty\ bd.otf);
+}
