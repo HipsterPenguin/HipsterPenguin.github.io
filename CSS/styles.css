@@ -25,6 +25,10 @@ nav a:hover{
     color: white;
 }
 
+body{
+    margin: 0;
+}
+
 @font-face {
     font-family: axaxax;
     font-weight: bold;
