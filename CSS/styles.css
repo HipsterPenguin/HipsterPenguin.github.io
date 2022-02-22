@@ -1,8 +1,23 @@
-#MainHeader{
+#content{
+    height: 100%;
+}
+
+#canvas{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.section{
+    margin-top: 5%;
+}
+
+
+.content{
     font-family: 'Orator', monospace;
     text-align: center;
     color: black;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 nav{
@@ -15,9 +30,9 @@ nav{
 }
 
 nav a{
-    font-family: kirsty;
+    font-family: 'Orator', monospace;
     color: silver;
-    margin: 5px;
+    margin: 30px;
     text-decoration: none;
 }
 
