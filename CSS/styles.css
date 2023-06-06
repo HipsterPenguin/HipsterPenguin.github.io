@@ -1,62 +1,77 @@
-#content{
-    height: 100%;
-}
-
-#canvas{
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.section{
-    margin-top: 5%;
-}
-
-
-.content{
-    font-family: 'Orator', monospace;
-    text-align: center;
-    color: black;
-    font-size: 22px;
-}
-
-nav{
-    background-color: black;
-    height: 15%;
+#resume {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 50%;
     padding: 10px;
     text-align: center;
-    font-size: 18px;
-    border: 0;
 }
 
-nav a{
-    font-family: 'Orator', monospace;
-    color: silver;
-    margin: 30px;
+#skillsTable {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+#skillsTable td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#emailLink {
+    color: green;
     text-decoration: none;
 }
 
-nav a:hover{
-    color: white;
+#emailLink:hover {
+    color: blue;
 }
 
-body{
-    margin: 0;
+.section {
+    padding: 10px;
 }
 
-@font-face {
-    font-family: axaxax;
+.subSection {
+
+}
+
+.sectionHeader {
+    cursor: pointer;
+    background-color: #ddd;
+    color: black;
+    padding: 10px;
+    border-bottom: black 1px solid;
+}
+
+.sectionBody {
+    width: 60%;
+    margin: auto;
+}
+
+.subSectionHeading {
     font-weight: bold;
-    src: url(../Assets/Fonts/axaxax\ bd.otf);
+    font-size: 1.5em;
 }
 
-@font-face {
-    font-family: kirsty;
-    src: url(../Assets/Fonts/kirsty\ rg.otf);
-}
-
-@font-face {
-    font-family: kirsty;
+.subSectionSubHeading {
     font-weight: bold;
-    src: url(../Assets/Fonts/kirsty\ bd.otf);
+    font-size: 1.2em;
+    color: #666;
+}
+
+.subSectionDetail {
+    font-size: 1em;
+}
+
+.rotate {
+    transition: transform 0.5s;
+    transform: rotate(180deg);
+}
+
+.rotateBack {
+    transition: transform 0.5s;
+    transform: rotate(0deg);
+}
+
+.leftAligned {
+    text-align: left;
 }

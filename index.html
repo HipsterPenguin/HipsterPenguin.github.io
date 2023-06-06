@@ -4,21 +4,160 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="CSS/styles.css">
     <title>Craig Wyss Home</title>
-    <script src="Scripts/homescript.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="Pages/about.html">About</a>
-      <a href="Pages/work.html">Work</a>
-    </nav>
-    <div id="content">
-      <section class="section">
-        <h1 id="MainHeader" class="content">Craig Wyss</h1>
-      </section>
-      <section class="section">
-        <canvas id="canvas" width="500" height="500"></canvas>
-      </section>
+  <div id="resume">
+    <div id="Head">
+      <h1>Craig Wyss</h1>
+      <h2>Software Developer</h2>
+      <p>715-245-7668 | Menomonie, WI | <a id="emailLink" href="mailto:wyss.craiga@gmail.com">wyss.craiga@gmail.com</a></p>
     </div>
+    <div class="section">
+      <h2 class="sectionHeader leftAligned">
+        Skills & Abilities
+        <img class="dropDownArrow" src="Assets/Pictures/chevron-wide.svg" alt="Drop-Down-Arrow" width="20px" height="20px">
+      </h2>
+      <div class="sectionBody">
+        <table id="skillsTable">
+          <tr>
+            <td>DBMS(s)</td>
+            <td>MySQL, PostgresSQL, SQLite</td>
+          </tr>
+          <tr>
+            <td>Programming Languages</td>
+            <td>Java, C#, C++, C, Python, PHP, JavaScript, HTML5, CSS, Bash</td>
+          </tr>
+          <tr>
+            <td>OS(s)</td>
+            <td>Windows(7, 8, 9, 10), Linux/Unix(Mint, openSUSE)</td>
+          </tr>
+          <tr>
+            <td>Frameworks</td>
+            <td>J-Query, ASP.NET, JSP, Express.js</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="sectionHeader leftAligned">
+        Experience
+        <img class="dropDownArrow" src="Assets/Pictures/chevron-wide.svg" alt="Drop-Down-Arrow" width="20px" height="20px">
+      </h2>
+      <div class="sectionBody">
+        <div class="subSection leftAligned">
+          <h3 class="subSectionHeading">Andersen Windows</h3>
+          <h4 class="subSectionSubHeading">Warehouse Associate | May 2018 - September 2021</h4>
+          <ul class="subSectionDetail">
+            <li>Managed small crew to stage screen and door products to a loading/staging area.</li>
+            <li>Performed inventory management on a variety of products related to Windows, Doors, and their installation.</li>
+            <li>Operated heavy machinery to move product from import docks to storage locations.</li>
+            <li>Trained new personal on how to use equipment as well as how to navigate and use warehouse management software.</li>
+          </ul>
+        </div>
+        <div class="subSection leftAligned">
+          <h3 class="subSectionHeading">A&W Baldwin</h3>
+          <h4 class="subSectionSubHeading">Cook | September 2015 – August 2017</h4>
+          <ul class="subSectionDetail">
+            <li>Performed daily maintenance and cleaning tasks including wiping, sweeping, dusting, spraying, and washing.</li>
+            <li>Prepared food items from the official menu such as sandwiches, French-fries, and ingredients such as
+              cucumbers, eggs, tomatoes, and onions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="sectionHeader leftAligned">
+        Education
+        <img class="dropDownArrow" src="Assets/Pictures/chevron-wide.svg" alt="Drop-Down-Arrow" width="20px" height="20px">
+      </h2>
+      <div class="sectionBody">
+        <div class="subSection leftAligned">
+          <h3 class="subSectionHeading">Chippewa Valley Technical College</h3>
+          <h4 class="subSectionSubHeading">Chippewa Falls, WI | AS in IT Software Development January 2022 to May 2023</h4>
+          <ul class="subSectionDetail">
+            <li>Earned a 4.0 GPA studying in classes about Web and Application development using a variety of
+              languages and frameworks as well as database management systems.</li>
+          </ul>
+        </div>
+        <div class="subSection leftAligned">
+          <h3 class="subSectionHeading">Spring Valley High-School</h3>
+          <h4 class="subSectionSubHeading">Spring Valley, WI | High-School Diploma May 2017</h4>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="sectionHeader leftAligned">
+        School Projects
+        <img class="dropDownArrow" src="Assets/Pictures/chevron-wide.svg" alt="Drop-Down-Arrow" width="20px" height="20px">
+      </h2>
+      <div class="sectionBody">
+        <div class="subSection leftAligned">
+          <h3 class="subSectionHeading">ASP Recipe List Generator Application</h3>
+          <h4 class="subSectionSubHeading">.NET Application Development</h4>
+          <ul class="subSectionDetail">
+            <li>Stored and retrieved database records containing recipes.</li>
+            <li>Provided a comprehensive GUI for user to input recipes as well as filters for getting a list of
+              recipes with the desired properties.</li>
+            <li>Utilized a small set of libraries to interact with a database and process the data returned from the database.</li>
+          </ul>
+        </div>
+        <div class="subSection leftAligned">
+          <h3 class="subSectionHeading">Resume Generation Website</h3>
+          <h4 class="subSectionSubHeading">IT Capstone</h4>
+          <ul class="subSectionDetail">
+            <li>Collaborated with a team using modern software development tools such as GIT for version control and
+              Agile principles for project management.</li>
+            <li>Provided Web pages for creating, editing, and viewing user information and resumes created from that
+              information.</li>
+            <li>Securely stored and retrieved info from a database about the user and information related to their
+              personal data or resume.</li>
+            <li>Provided a user account system that utilized JsonWebTokens and password encryption to securely authorize
+              a user and allow them to interact with their data.</li>
+            <li>Utilized a set of JavaScript libraries to process requests from the user and return rendered web pages
+              using EJS templates.</li>
+          </ul>
+        </div>
+        <div class="subSection leftAligned">
+          <h3 class="subSectionHeading">Technology Blog Website</h3>
+          <h4 class="subSectionSubHeading">Web Development HTML & CSS</h4>
+          <ul class="subSectionDetail">
+            <li>Designed a basic blog site template using HTML and CSS to structure and stylize it.</li>
+            <li>Implemented form for contacting the owner of the blog website as well as providing validation for data
+              in the form.</li>
+          </ul>
+        </div>
+        <div class="subSection leftAligned">
+          <h3 class="subSectionHeading">Recipe List Generation Website</h3>
+          <h4 class="subSectionSubHeading">Software Quality Control</h4>
+          <ul class="subSectionDetail">
+            <li>Stored and retrieved database records containing recipes.</li>
+            <li>Provided Gui Via EJS templates to generate webpages upon request.</li>
+            <li>Utilized REST API requests to recipe database website to get a list of recipes with the desired properties.</li>
+          </ul>
+        </div>
+        <div class="subSection leftAligned">
+          <h3 class="subSectionHeading">Movie Database Website</h3>
+          <h4 class="subSectionSubHeading">Java Web Programming</h4>
+          <ul class="subSectionDetail">
+            <li>Generated web pages upon user request using JSP.</li>
+            <li>Retrieved and stored data from XSLV files related to movies.</li>
+            <li>Utilized JavaBeans to store and process data retrieved from files.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="sectionHeader leftAligned">
+        References
+        <img class="dropDownArrow" src="Assets/Pictures/chevron-wide.svg" alt="Drop-Down-Arrow" width="20px" height="20px">
+      </h2>
+      <div class="sectionBody">
+        <h4 class="subSectionSubHeading">Available upon request</h4>
+      </div>
+    </div>
+  </div>
   </body>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+          integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="Scripts/resume.js"></script>
 </html>
